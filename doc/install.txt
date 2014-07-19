@@ -1,0 +1,44 @@
+/////////////////////////////////
+///       OpenCart V1.5.X       ///
+///    安装指南    ///
+///  http://www.opencart.com  ///
+/////////////////////////////////
+
+
+注意：以下步骤适用于全新安装，如果您要升级现有的购物车请观看Upgrade.txt文件
+
+
+-------
+INSTALL
+-------
+
+1. 上传 "Upload" 文件夹的所有档案到你的服务器，并将Upload文件夹更名为您想要的名称。
+	
+   例. /public_html/store or /public_html
+
+2. 如果您是使用 Linux/Unix 系统，请确定以下档案和文件夹是可写入的状态.
+   chmod 0755 or 0777 image/
+   chmod 0755 or 0777 image/cache/
+   chmod 0755 or 0777 image/data/   
+   chmod 0755 or 0777 system/cache/
+   chmod 0755 or 0777 system/logs/
+   chmod 0755 or 0777 download/
+   chmod 0755 or 0777 config.php
+   chmod 0755 or 0777 admin/config.php
+
+3. 请确定您已经安装了MySQL的数据库，并创建一个用户(为了安全，请不要和你的root用户相同)
+
+4. 浏览您的网址
+
+   e.g. http://www.example.com or http://www.example.com/store/
+
+5. 按照提示安装.
+
+6. 安装完成后删除install 文件夹.
+
+
+有任何问题请访问: http://www.opencart.com
+
+中文版本提供: http://www.dnono.com
+
+EOF
